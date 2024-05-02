@@ -1,16 +1,16 @@
-import React from 'react'
+
 
 const dummyData = [
     {
     id:1,
     Name:"kery",
-    Age:12,
-    Education:"graduate",
+    Age:23,
+    Education:"Graduate",
     Email:"kery@gmail",
-    MobileNumber:32222222222,
-    Zipcode:12,
-    City:"USA",
-    Country:"USA",
+    MobileNumber:98876432,
+    Zipcode:122,
+    City:"Quetta",
+    Country:"Pakistan",
     Language:"urdu"
 
 },
@@ -18,24 +18,24 @@ const dummyData = [
     id:2,
     Name:"john",
     Age:12,
-    Education:"graduate",
+    Education:"Post graduate",
     Email:"john@gmail",
-    MobileNumber:32222222222,
-    Zipcode:12,
-    City:"USA",
-    Country:"USA",
+    MobileNumber:943876488,
+    Zipcode:121,
+    City:"Lahore",
+    Country:"Pakistan",
     Language:"urdu"
 
 },
 {
     id:3,
     Name:"Loud",
-    Age:12,
-    Education:"graduate",
+    Age:40,
+    Education:"College",
     Email:"Loud@gmail",
-    MobileNumber:32222222222,
-    Zipcode:12,
-    City:"New York",
+    MobileNumber:9992127856,
+    Zipcode:120,
+    City:"Karachi",
     Country:"Pakistan",
     Language:"English"
 
@@ -43,13 +43,13 @@ const dummyData = [
 {
     id:4,
     Name:"Lolly",
-    Age:12,
-    Education:"graduate",
+    Age:33,
+    Education:"High School",
     Email:"lolly@gmail",
-    MobileNumber:32222222222,
-    Zipcode:12,
-    City:"New Jersey",
-    Country:"USA",
+    MobileNumber:9000112341,
+    Zipcode:102,
+    City:"Islamabad",
+    Country:"Pakistan",
     Language:"English"
 
 }

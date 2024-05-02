@@ -1,23 +1,18 @@
 import { createSlice } from "@reduxjs/toolkit";
+import dummyData from "../src/assets/dummyData";
 
-const initialState = [
-  {
-    id: 1,
-    Name: "shujaat",
-    Age: 12,
-    Education: "graduate",
-    Email: "ahmed.shujaat",
-    MobileNumber: 32222222222,
-    Zipcode: 12,
-    City: "Karachi",
-    Country: "Pakistan",
-    Language: "urdu",
-  },
-];
+const initialState = dummyData
 
 const SelectSlice = createSlice({
   name: "card",
   initialState,
-});
+  reducers:{
+    selected:(state,action)=>{
+      console.log(state, 'hellostate');
+      console.log(action, 'helloaction')
+    }
 
+  }
+});
+export const {selected} = SelectSlice.actions
 export default SelectSlice.reducer;
