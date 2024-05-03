@@ -1,15 +1,15 @@
 import { createSlice } from "@reduxjs/toolkit";
-import dummyData from "../src/assets/dummyData";
-
-const initialState = dummyData
 
 const SelectSlice = createSlice({
   name: "card",
-  initialState,
+  initialState:{
+    cartData: null
+  },
   reducers:{
     selected:(state,action)=>{
-      console.log(state, 'hellostate');
-      console.log(action, 'helloaction')
+      state.cartData = action.payload
+      console.log(action.payload ,'ppp')
+      console.log(state.cartData ,'ppp')
     }
 
   }
